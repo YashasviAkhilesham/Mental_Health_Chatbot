@@ -6,7 +6,7 @@ const app = express();
 app.use(express.urlencoded({ extended: false }));
 
 // ✅ Replace with your new Voiceflow API key here
-const VOICEFLOW_API_KEY = 'Bearer YOUR_NEW_API_KEY_HERE';  // <---- 👈 Don't forget 'Bearer '
+const VOICEFLOW_API_KEY = 'Bearer VF.DM.686946d7d3fd6eed7a8f9abc.ibWdbRLFF02N5vud';  // <---- 👈 Don't forget 'Bearer '
 
 app.get('/', (req, res) => {
   res.send('✅ Bot is deployed and running!');
